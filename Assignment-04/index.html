@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create 10 Awesome Buttons and A List</title>
+    <script
+      src="https://kit.fontawesome.com/cd1c7a5b58.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+      header {
+        background-color: aquamarine;
+        text-align: center;
+        text-transform: uppercase;
+        word-spacing: 3px;
+        letter-spacing: 0.5px;
+        color: rgba(0, 76, 255, 0.856);
+      }
+
+      div {
+        background-color: rgba(165, 136, 185, 0.902);
+        font-size: 2em;
+        text-align: center;
+        color: rgb(51, 96, 131);
+        margin: 10px auto;
+        width: 75%;
+      }
+      ul li:hover {
+        background-color: rgb(173, 237, 237);
+      }
+
+      li {
+        list-style: none;
+        width: 50%;
+        height: 25px;
+        margin: 30px auto;
+        border: 10px solid rgba(150, 136, 185, 0.902);
+        border-radius: 10px;
+        background-color: rgb(202, 174, 228);
+        /* padding: 15px 30px; */
+        padding: 15px;
+        cursor: pointer;
+
+        /* text-align: center; */
+      }
+
+      /* div a {
+        background-position: center;
+      } */
+
+      a {
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+        font-weight: 550;
+        background-color: bisque;
+        color: rgb(17, 90, 145);
+        margin: 10px;
+        padding: 10px 25px;
+        border-radius: 10px;
+      }
+
+      a:hover {
+        background-color: rgb(197, 177, 153);
+      }
+
+      a:active {
+        outline: 5px solid rgb(255, 245, 206);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Create Awesome Buttons & A List</h1>
+    </header>
+    <main>
+      <div>
+        <ul>
+          <li>Mango</li>
+          <li>Banaan</li>
+          <li>Apple</li>
+          <li>Nut</li>
+          <li>Guava</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <a href="#"><i class="fa-solid fa-backward"></i> Back</a>
+        <a href="#">Next <i class="fa-solid fa-forward"></i></a>
+        <a href="#">Close</a>
+      </div>
+    </footer>
+  </body>
+</html>
